@@ -1,0 +1,258 @@
+body {
+    background-color: bisque;
+    background-image: url("assets/images/Scrabble_Board_OneLine.png");
+}
+
+#board-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 73px;
+    width: 1086px;
+}
+
+#blank-slot {
+    background-image: url(../assets/images/Scrabble_Board_Blank.png);
+    width: 72px;
+    height: 73px;
+    float: left;
+}
+
+#doubleW-slot {
+    background-image: url(../assets/images/Scrabble_Board_DoubleW.png);
+    width: 75px;
+    height: 73px;
+    float: left;
+}
+
+#doubleL-slot {
+    background-image: url(../assets/images/Scrabble_Board_DoubleL.png);
+    width: 72px;
+    height: 73px;
+    float: left;
+}
+
+#rack-container {
+    background-image: url(../assets/images/scrabble-tile-holder-406774_640.png);
+    width: 640px;
+    height: 182px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#A {
+    background-image: url(../assets/tiles/A.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#B {
+    background-image: url(../assets/tiles/B.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#_ {
+    background-image: url(../assets/tiles/Blank.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#C {
+    background-image: url(../assets/tiles/C.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#D {
+    background-image: url(../assets/tiles/D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#E {
+    background-image: url(../assets/tiles/E.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#F {
+    background-image: url(../assets/tiles/F.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#G {
+    background-image: url(../assets/tiles/G.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#H {
+    background-image: url(../assets/tiles/H.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#I {
+    background-image: url(../assets/tiles/I.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#J {
+    background-image: url(../assets/tiles/J.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#K {
+    background-image: url(../assets/tiles/K.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#L {
+    background-image: url(../assets/tiles/L.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#M {
+    background-image: url(../assets/tiles/M.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#N {
+    background-image: url(../assets/tiles/N.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#O {
+    background-image: url(../assets/tiles/O.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#P {
+    background-image: url(../assets/tiles/P.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#Q {
+    background-image: url(../assets/tiles/Q.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#R {
+    background-image: url(../assets/tiles/R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#S {
+    background-image: url(../assets/tiles/S.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#T {
+    background-image: url(../assets/tiles/T.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#U {
+    background-image: url(../assets/tiles/U.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#V {
+    background-image: url(../assets/tiles/V.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#W {
+    background-image: url(../assets/tiles/W.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#X {
+    background-image: url(../assets/tiles/X.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#Y {
+    background-image: url(../assets/tiles/Y.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}
+
+#Z {
+    background-image: url(../assets/tiles/Z.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 69px;
+}

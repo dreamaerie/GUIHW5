@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>One Line of Scrabble</title>
+        <meta charset="utf-8">
+        <link href="css/scrabble.css" rel="stylesheet">
+    </head>
+   
+    <body>
+        <div id="scoreboard">
+            <div id="tiles-left">Tiles Left:</div>
+            <div id="left"></div>
+            <div id="total-score">Total Score:</div>
+            <div id="total"></div>
+            <div id="current-score">Score:</div>
+             
+            <div id="score"></div>
+            <div id="current-word">Word:</div>
+            <div id="word"></div>
+            <div id="errormsg"></div>
+        </div>
+        <div id="board-container">
+            <div id="blank-slot" class="slot 1"></div>
+            <div id="blank-slot" class="slot 2"></div>
+            <div id="doubleW-slot" class="slot 3"></div>
+            <div id="blank-slot" class="slot 4"></div>
+            <div id="blank-slot" class="slot 5"></div>
+            <div id="blank-slot" class="slot 6"></div>
+            <div id="doubleL-slot" class="slot 7"></div>
+            <div id="blank-slot" class="slot 8"></div>
+            <div id="doubleL-slot" class="slot 9"></div>
+            <div id="blank-slot" class="slot 10"></div>
+            <div id="blank-slot" class="slot 11"></div>
+            <div id="blank-slot" class="slot 12"></div>
+            <div id="doubleW-slot" class="slot 13"></div>
+            <div id="blank-slot" class="slot 14"></div>
+            <div id="blank-slot" class="slot 15"></div>
+        </div>
+        <button type="button" id="restart">Restart Game</button>
+        <button type="button" id="submit">Submit Word</button>
+        <div id="rack-container" class="droppable"></div>
+        <div id="submited-words">Submited Words:</div>
+        <div id="words"></div>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="js/scrabble.js"></script>
+    </body>
+</html>
